@@ -40,6 +40,7 @@ for f in files:
 
         print(insert_statement)
 
+    print('\n\n')
     
 
 

@@ -12,3 +12,7 @@ The python script to run is DataTableCreations. It takes in no parameters. It on
 # Interval Case Statement Function.py
 
 If you have a need to know whether a value is between 0-10, 50-100, or whatever the interval space is, this function creates case statements for a lower and upper bound of equal intervals.
+
+# Daily SQL Loads
+
+This script is for running a SQL script that needs to dynamically shift in 1 day intervals. If you want to run an insert statement into a file for every day from a table, you can set up the SQL to shift one day at a time. It also takes in variables that can be shifted depending on when the current_date is in the for loop.
